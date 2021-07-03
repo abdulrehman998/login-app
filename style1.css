@@ -1,0 +1,33 @@
+body{
+    /* background-color: #dc3545; */
+    background-image: url("image/background\ image.jpg");
+    background-size: 50%;
+    background-position: bottom;
+}
+.dot {
+    height: 28px;
+    width: 28px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+  }
+
+.Center{
+    background-color: white;
+    position: relative;
+    top: 250px;
+    transform: translate(0, -50%);
+    border: 1px ridge rgb(70, 0, 128) ;
+    padding: 20px;
+}
+.card{
+    position: relative;
+    top: 80px;
+}
+
+.input{
+    height: 100px;
+}
